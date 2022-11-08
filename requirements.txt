@@ -1,20 +1,13 @@
-numpy
-scipy
-streamlit
-click==7.0.0
 wandb
 fastai==1.0.60
-tensorflow-cpu
 tensorboardX>=1.6
 ffmpeg
 ffmpeg-python
 yt-dlp
-pillow
-opencv-python-headless>=3.3.0.10
-opencv-contrib-python-headless>=3.3.0.10
-pillow==9.1.0
+jupyterlab
+opencv-python>=3.3.0.10
+Pillow==9.1.0
 --extra-index-url https://download.pytorch.org/whl/cu113
 torch==1.11.0
 torchvision==0.12.0
 ipywidgets
-dlib-binary

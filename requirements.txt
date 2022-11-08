@@ -1,6 +1,7 @@
 numpy
 scipy
 streamlit
+click==7.0.0
 wandb
 fastai==1.0.60
 tensorflow-cpu

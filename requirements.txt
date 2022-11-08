@@ -4,7 +4,7 @@ tensorboardX>=1.6
 ffmpeg
 ffmpeg-python
 yt-dlp
-jupyterlab
+streamlit
 opencv-python>=3.3.0.10
 Pillow==9.1.0
 --extra-index-url https://download.pytorch.org/whl/cu113

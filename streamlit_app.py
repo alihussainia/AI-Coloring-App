@@ -13,15 +13,6 @@ st.title("Image Colorizer")
 st.text("The solution uses DeOldify to fill color in black and white images using GANS.")
 
 @st.cache(allow_output_mutation=True)
-def downloading_model():
-  if 'models' in os.listdir() == False:
-    call("mkdir 'models'", shell=True)
-    call("mkdir 'result_images'", shell=True)
-    call('wget https://data.deepai.org/deoldify/ColorizeArtistic_gen.pth -O ./models/ColorizeArtistic_gen.pth', shell=True)
-
-downloading_model()
-
-@st.cache(allow_output_mutation=True)
 def load_model():
     colorizer = get_image_colorizer(artistic=True)
     return colorizer
@@ -59,4 +50,3 @@ if img_file_buffer is not None:
         with st.spinner('Downloading Image....'):
           os.remove(f'result_images/{saved_file_name}')
           os.remove(saved_file_name)
-          st.write(os.listdir())

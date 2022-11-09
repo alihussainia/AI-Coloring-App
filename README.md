@@ -1,6 +1,9 @@
 # AI-Coloring-App
 The solution uses DeOldify to fill color in black and white images using GANS.
 
+### Deployed Application
+[Colorizer App]("http://35.208.52.140:8501/")
+
 ### Project Pre-reqs:
 - Anaconda/Miniconda
 
